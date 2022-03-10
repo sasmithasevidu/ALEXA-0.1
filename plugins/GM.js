@@ -7,7 +7,7 @@ const Config = require('../config');
 
 
 if (Config.WORKTYPE == 'private') {
-Neotro.addCommand({pattern: 'gm', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
+Neotro.addCommand({pattern: 'gm', fromMe: true, deleteCommand: false, desc: GM,}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -28,7 +28,7 @@ Neotro.addCommand({pattern: 'gm', fromMe: true, deleteCommand: true, desc: GM,},
     }));
 
 
-Neotro.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
+Neotro.addCommand({pattern: 'gn', fromMe: true, deleteCommand: false, desc: GN,}, (async (message, match) => {
 
         var r_text = new Array ();
     
@@ -90,7 +90,7 @@ Neotro.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,},
                     message.jid,(r_text[i]), MessageType.text);
             
                 }));    
-                Neotro.addCommand({pattern: 'gm', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                Neotro.addCommand({pattern: 'gm', fromMe: true, deleteCommand: false,dontAddCommandList: true }, (async (message, match) => {
         
                     var r_text = new Array ();
                 
@@ -111,7 +111,7 @@ Neotro.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,},
                     }));
                 
                 
-                Neotro.addCommand({pattern: 'gn', fromMe: true, deleteCommand: true,dontAddCommandList: true }, (async (message, match) => {
+                Neotro.addCommand({pattern: 'gn', fromMe: true, deleteCommand: false,dontAddCommandList: true }, (async (message, match) => {
                 
                         var r_text = new Array ();
                     

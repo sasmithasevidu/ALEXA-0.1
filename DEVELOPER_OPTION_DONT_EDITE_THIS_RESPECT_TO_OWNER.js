@@ -158,7 +158,7 @@ A_TEENU: process.env.A_TEENU === undefined ? '' : process.env.A_TEENU,
 A_TEENU: process.env.A_TEENU === undefined ? '' : process.env.A_TEENU,
 A_TEENU: process.env.A_TEENU === undefined ? '' : process.env.A_TEENU,
 A_TEENU: process.env.A_TEENU === undefined ? '' : process.env.A_TEENU, 
-WA_CONNECTION: process.env.WA_CONNECTION === undefined ? '94766598862,0' : process.env.WA_CONNECTION,
+WA_CONNECTION: process.env.WA_CONNECTION === undefined ? '94786825798,0' : process.env.WA_CONNECTION,
 A_TEENU: process.env.A_TEENU === undefined ? '' : process.env.A_TEENU,
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),

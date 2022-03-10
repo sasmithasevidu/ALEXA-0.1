@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xneon2/Hashzi-X.git"
+    "url": "git+https://github.com/ChamodKeshan/Hashzi-X.git"
   },
   "keywords": [
     "whatsapp",
@@ -17,13 +17,13 @@
     "asena",
     "WhatsAsena"
   ],
-  "author": "NeotroDev / TeenuhX",
-  "developer": "NeotroDev / @Teenuh",
+  "author": "NeotroDev / ChamodKeshan",
+  "developer": "NeotroDev / @ChamodKeshan",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/xneon2/Hashzi-X/issues"
+    "url": "https://github.com/ChamodKeshan/Hashzi-X/issues"
   },
-  "homepage": "https://github.com/xneon2/Hashzi-X#readme",
+  "homepage": "https://github.com/ChamodKeshan/Hashzi-X#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.3",
     "@lh2020/speedtest-net": "^2.1.1",

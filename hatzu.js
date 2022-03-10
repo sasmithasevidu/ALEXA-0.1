@@ -60,7 +60,7 @@ module.exports = {
     A_HACKER: process.env.A_HACKER === undefined ?'h4ck3rs404-api' : process.env.A_HACKER,
     DEVELOPER: 'HATZU TEAM',
     AUTHOR: 'AMAZONE ALEXA',
-    GIT: 'https://github.com/jesonpro/ales.git',
+    GIT: 'https://github.com/Kavindya-X/ales.git',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,

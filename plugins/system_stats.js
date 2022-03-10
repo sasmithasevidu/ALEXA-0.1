@@ -27,7 +27,7 @@ const Lang = Language.getString('system_stats');
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*👩‍🦰Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*👩‍🦰Powered By* *Queen Alexa*' })
      }
     }));
 
@@ -59,11 +59,11 @@ const Lang = Language.getString('system_stats');
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*👩‍🦰Powered By ʜᴀᴛᴢᴜʜᴏʟᴇ*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*👩‍🦰Powered By* *Queen Alexa*' })
      }
     }));
 
-    Amazone.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
+    Amazone.addCommand({pattern: 'system', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
