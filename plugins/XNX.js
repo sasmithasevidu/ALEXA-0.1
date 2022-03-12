@@ -17,8 +17,8 @@ const DWLOAD_VID = "🤫 *Downloading Your Video...*"
 const YTV_UP = "🔞 *Uploading Your Video...*"
 const NO_RESULT = "*🤯 Oops Video Not Found...*"
 const credit = "* Powered BY ALEXA \n Kavindya-X*" 
-let tp1 = Config.WORKTYPE == 'private' ? false : true
-let tp2 = Config.WORKTYPE == 'private' ? true : false
+let tp1 = Config.WORKTYPE == 'public' ? false : true
+let tp2 = Config.WORKTYPE == 'public' ? true : false
 const ttpss = "not working \n Don't try again"
 
 diana.addCommand({ pattern: 'xnx ?(.*)', fromMe: tp1, dontAddCommandList:true}, async (message, match) => {
