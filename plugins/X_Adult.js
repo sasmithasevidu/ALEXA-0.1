@@ -24,8 +24,8 @@ const Need = "😏 *Enter Some Words.*"
 const Searching = "🔞 _*Alexa Searching Xnxx Adult Videos...*_"
 //const XHSearching = "🔞 _*Alexa Searching Xhamster Adult Videos...*_"
 const credit = "* Powered BY Alexa*" 
-let tp1 = Config.WORKTYPE == 'private' ? false : true
-let tp2 = Config.WORKTYPE == 'private' ? true : false
+let tp1 = Config.WORKTYPE == 'public' ? false : true
+let tp2 = Config.WORKTYPE == 'public' ? true : false
 const notworking = "Not working \n don't try again"
 
 	// -------------------------------------X-N-X-X--S-E-A-R-C-H------------------------------------------------------------------------
