@@ -58,7 +58,7 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD === undefined ?'false' : process.env.ANTIBAD,
     FULL_ALEXA: process.env.FULL_ALEXA === undefined ?'false' : process.env.FULL_ALEXA,
     WHATS_LINK_BLOCK: process.env.WHATS_LINK_BLOCK === undefined ?'false' : process.env.WHATS_LINK_BLOCK,
-    MENU_LOGO: process.env.MENU_LOGO === undefined ?'https://ibb.co/VNvr1VV' : process.env.MENU_LOGO,
+    MENU_LOGO: process.env.MENU_LOGO === undefined ?'https://i.ibb.co/W3cqhnn/20220313-202203.jpg' : process.env.MENU_LOGO,
     PKGPS: process.env.PKGPS === undefined ?'=xnxcom' : process.env.PKGPS,
     ADULT_MODE: process.env.ADULT_MODE === undefined ? 'on' : process.env.ADULT_MODE,
     AMAZONE: process.env.AMAZONE === undefined ? 'Amazone Alexa' : process.env.AMAZONE,
