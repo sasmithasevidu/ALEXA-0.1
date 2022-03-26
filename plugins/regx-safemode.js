@@ -67,7 +67,7 @@ Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
         let regex10 = new RegExp('.hunt1')
         let regex11 = new RegExp('amdi')
         let regex12 = new RegExp('QUEEN AMDI')
-        let regex13 = new RegExp('amda')
+        let regex13 = new RegExp('Amdi')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
