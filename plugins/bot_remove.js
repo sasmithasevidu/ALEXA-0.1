@@ -36,10 +36,10 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     });
     return sonuc.includes(true);
 }
-var therikick_var = ''
+var badnamekick_var = ''
 async function notheri() {
     await heroku.get(baseURI + '/config-vars').then(async (vars) => {
-        therikick_var = vars.THERI_KICK
+        badnamekick_var = vars.BAD_NAME_KICK
     });
 }
 notheri()
@@ -48,13 +48,13 @@ if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*Link Tespit Edildi!*'
 if (Config.LANG == 'EN') ldc = '*👩‍🦰Spam Word Detected Action: ⛔kick*'
 if (Config.LANG == 'ML') ldc = '*ith njanum vilikkilla neeyum villikilla* \n 😅 *arod parayan aar kelkaan* \n *edth purath aakiyathin shesham aan parayunne* 😅😅'
-if (Config.LANG == 'SI') ldc = '*👩‍🦰කොපි කල බොට්ටුන්ගේ නම් හසු වී ඇත. ක්‍රියාමාර්ගය:⛔අනිත් බොට්ටු අවමන් කිරන නිසා remove කිරීම*'
+if (Config.LANG == 'SI') ldc = '*👩‍🦰කොපි කල බොට්ටුන්ගේ නම් හසු වී ඇත.* \n *ක්‍රියාමාර්ගය:⛔අනිත් බොට්ටු අවමන් කිරන නිසා remove කිරීම*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Amazone.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-    if (therikick_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
+    if (badnamekick_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
         let regex1 = new RegExp('queen Amdi')
         let regex2 = new RegExp('sew')
         let regex3 = new RegExp('sewQueen')
