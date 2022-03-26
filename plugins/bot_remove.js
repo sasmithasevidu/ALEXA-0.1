@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 TENUX-Neotro.
+/* Copyright (C) 2022 kavindya-x/Neotro.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-NEOTROX - TEENUHX
+NEOTROX - Kavindya-X
 */
 
 const Neotro = require('../events');
@@ -48,7 +48,7 @@ if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*Link Tespit Edildi!*'
 if (Config.LANG == 'EN') ldc = '*👩‍🦰Spam Word Detected Action: ⛔kick*'
 if (Config.LANG == 'ML') ldc = '*ith njanum vilikkilla neeyum villikilla* \n 😅 *arod parayan aar kelkaan* \n *edth purath aakiyathin shesham aan parayunne* 😅😅'
-if (Config.LANG == 'SI') ldc = '*👩‍🦰කොපි කල බොට්ටුන්ගේ නම් හසු වී ඇත. ක්‍රියාමාර්ගය:⛔කොන් කිරීමක් වශයෙන් remove කිරීම*'
+if (Config.LANG == 'SI') ldc = '*👩‍🦰කොපි කල බොට්ටුන්ගේ නම් හසු වී ඇත. ක්‍රියාමාර්ගය:⛔අනිත් බොට්ටු අවමන් කිරන නිසා remove කිරීම*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
@@ -61,12 +61,12 @@ Amazone.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (me
         let regex4 = new RegExp('Sew')
         let regex5 = new RegExp('amda')
         let regex6 = new RegExp('BlackAmda')
-        let regex7 = new RegExp('Queen Amdi')
+        let regex7 = new RegExp('QueenAmdi')
         let regex8 = new RegExp('SEW')
         let regex9 = new RegExp('black amda')
         let regex10 = new RegExp('blackamda')
         let regex11 = new RegExp('amdi')
-        let regex12 = new RegExp('assdsa')
+        let regex12 = new RegExp('AMDI')
         let regex13 = new RegExp('Amdi')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
