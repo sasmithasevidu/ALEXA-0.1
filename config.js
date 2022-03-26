@@ -51,6 +51,7 @@ module.exports = {
     BOT_NAME: process.env.BOT_NAME === undefined ? '*👩‍🦰Amazone*' : process.env.BOT_NAME,
     OWNERSHIP: process.env.OWNER_NAME === undefined ? 'MR.CHAMOD' : process.env.OWNER_NAME,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'true' : process.env.THERI_KICK,
+    BAD_NAME_KICK: process.env.BAD_NAME_KICK === undefined ? 'true' : process.env.BAD_NAME_KICK,
     SONGD: process.env.SONGD === undefined ? 'ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGD,
     SONGU: process.env.SONGU === undefined ? 'ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGU,
     TALKING_PINKY: process.env.TALKING_PINKY === undefined ? 'false' : process.env.TALKING_PINKY,
