@@ -65,6 +65,9 @@ Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
         let regex8 = new RegExp('SEW')
         let regex9 = new RegExp('.hunt2')
         let regex10 = new RegExp('.hunt1')
+        let regex11 = new RegExp('amdi')
+        let regex12 = new RegExp('QUEEN AMDI')
+        let regex13 = new RegExp('amda')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
@@ -145,5 +148,29 @@ Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
             await message.client.groupRemove(message.jid, [message.data.participant]);         
             await message.client.sendMessage(message.jid,ldc, MessageType.text, {quoted: message.data })
         }      
+         else if (regex11.test(message.message)) {
+            var us = await checkUsAdmin(message)
+            var im = await checkImAdmin(message)
+            if (!im) return;
+            if (us) return;
+            await message.client.groupRemove(message.jid, [message.data.participant]);         
+            await message.client.sendMessage(message.jid,ldc, MessageType.text, {quoted: message.data })
+        }
+         else if (regex12.test(message.message)) {
+            var us = await checkUsAdmin(message)
+            var im = await checkImAdmin(message)
+            if (!im) return;
+            if (us) return;
+            await message.client.groupRemove(message.jid, [message.data.participant]);         
+            await message.client.sendMessage(message.jid,ldc, MessageType.text, {quoted: message.data })
+        }
+         else if (regex13.test(message.message)) {
+            var us = await checkUsAdmin(message)
+            var im = await checkImAdmin(message)
+            if (!im) return;
+            if (us) return;
+            await message.client.groupRemove(message.jid, [message.data.participant]);         
+            await message.client.sendMessage(message.jid,ldc, MessageType.text, {quoted: message.data })
+        }
     }
 }));
