@@ -53,7 +53,7 @@ Amazone.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, d
 //=========================Private START=======================
 
 Amazone.addCommand({on: 'text', fromMe: false }, (async (message, match) => {
-    if(Config.BGMFILTER){
+    if(Config.VOICEFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
         if (!!message.mention && message.mention[0] == '919778042644@s.whatsapp.net') {
@@ -122,10 +122,10 @@ Amazone.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, d
 //================================================
 //================================================
     
-if (Config.VOICETYPE == 'Angela') {  
+if (Config.VOICEFILTER == 'true') {  
     
 Amazone.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
-        if(Config.BGMFILTER){
+        if(Config.VOICEFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
         if (!!message.mention && message.mention[0] == '919778042644@s.whatsapp.net') {
@@ -156,10 +156,10 @@ if(pattern.test(message.message)){
 //================================================
 //================================================
 
-    if (Config.VOICETYPE == 'Tom') {
+    if (Config.VOICEFILTER == 'true') {
     
     Amazone.addCommand({on: 'text', fromMe: false}, (async (message, match) => {   
-        if(Config.BGMFILTER){
+        if(Config.VOICEFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
         if (!!message.mention && message.mention[0] == '919778042644@s.whatsapp.net') {
