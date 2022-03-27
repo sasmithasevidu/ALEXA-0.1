@@ -171,7 +171,8 @@
         },
         "REMOVE_BG_API_KEY": {
             "description": "Here you go to the website remove.bg and sign up and get an API key. Leave the API key in this space.",
-            "required": false
+            "required": true
+            "value" : "LEaNi4unWyb8GGQzHV9SPnMe"
         },
         "ALIVE_MESSAGE": {
             "description": "The message you get when you check whether the bot is online or not. This is not necessarily the case.",
