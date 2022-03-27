@@ -46,6 +46,7 @@ module.exports = {
     ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg' : process.env.ALIVE_LOGO,
     CAPTIONS: process.env.CAPTIONS === undefined ? '*Made By 👩‍🦰Queen Alexa*' : process.env.CAPTIONS,
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
+    VOICEFILTER: process.env.VOICE_REPLY === undefined ? true : convertToBool(process.env.VOICE_REPLY),
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
     BOT_NAME: process.env.BOT_NAME === undefined ? '*👩‍🦰Amazone*' : process.env.BOT_NAME,
