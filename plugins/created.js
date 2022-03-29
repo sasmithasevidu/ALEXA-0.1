@@ -4,7 +4,8 @@ const exec = require('child_process').exec;
 const os = require("os");
 const fs = require('fs');
 const Config = require('../config')
-Ktb.addCommand({ pattern: 'git ?(.*)', fromMe: true, desc: 'owner number' }, (async (message, match) => {
+const tk = Config.WORKTYPE == 'public' ? false : true
+Ktb.addCommand({ pattern: 'git ?(.*)', fromMe: tk, desc: 'owner number' }, (async (message, match) => {
 
 //coded by saidali
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
