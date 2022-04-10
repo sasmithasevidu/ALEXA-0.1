@@ -53,7 +53,7 @@ if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (alllink_var == 'true') {
         let regex1 = new RegExp('bitly.com')
-        let regex2 = new RegExp('https://chat.whatsapp.com')
+        let regex2 = new RegExp('whatsapp.com')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
